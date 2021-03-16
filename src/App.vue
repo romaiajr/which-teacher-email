@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <Home/>
+    <b-container>
+      <Home/>
+    </b-container>
   </div>
 </template>
 
@@ -13,4 +15,9 @@ export default {
   },
 }
 </script>
-
+<style>
+* {
+  padding:0;
+  margin:0;
+}
+</style>
